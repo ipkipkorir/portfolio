@@ -294,6 +294,9 @@ body {
   .services ul {
     flex-direction: column;
   }
+  .footer-content {
+    width: 75%;
+  }
   .ft-top {
     flex-direction: column;
   }
