@@ -179,12 +179,13 @@ body {
   margin: 10px;
   font-size: 1.5rem;
   color: #555; 
-  text-shadow: 2px 4px 8px #114;
+  text-shadow: 2px 4px 8px #000;
   text-transform: capitalize;
   list-style: none;
   text-align: center;
   border-radius: 5px;
-  background: linear-gradient(100deg, rgb(118, 201, 255), #fff);
+  background: linear-gradient(
+    200deg, /*#0df*/rgb(118, 201, 255), #fff, rgb(118, 201, 255));
 }
 #footer {
   display: flex;
@@ -259,6 +260,7 @@ body {
 @media only screen and (max-width: 768px) {
   #navbar a {
     font-size: 1.1rem;
+    padding: 14px;
   }
   #navbar a:hover {
     font-size: 1.1rem;
@@ -269,8 +271,12 @@ body {
   #welcome-section h2 {
     font-size: 1.5rem;
   }
+  #profile-link {
+  margin-top: 38px;
+  font-size: 1.8rem;
+}
   #preprojects-into > h1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
   #projects {
     flex-direction: column;
