@@ -283,12 +283,12 @@ body {
  
   }
   .project-tile {
-    width: 96%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
   .project-tile:hover {
-    width: 96%;
+    width: 90%;
     box-shadow: none;
   }
   .services ul {
